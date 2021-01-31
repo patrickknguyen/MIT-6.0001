@@ -1,0 +1,11 @@
+n = int(input('How many times should I print the letter X? '))
+reps = n
+toPrint = ''
+
+if reps < 0:
+    print("Sorry, invalid value")
+else:
+    while reps > 0:
+        toPrint = toPrint + 'X'
+        reps = reps - 1
+print(toPrint)
